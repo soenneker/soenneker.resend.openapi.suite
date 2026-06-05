@@ -8,6 +8,11 @@ namespace Soenneker.Resend.OpenApi.Suite.Registrars;
 /// </summary>
 public static class ResendOpenApiSuiteRegistrar
 {
+    /// <summary>
+    /// Adds resend open api suite as singleton.
+    /// </summary>
+    /// <param name="services">The service collection.</param>
+    /// <returns>The result of the operation.</returns>
     public static IServiceCollection AddResendOpenApiSuiteAsSingleton(this IServiceCollection services)
     {
         services.AddResendEmailsUtilAsSingleton();
@@ -15,6 +20,11 @@ public static class ResendOpenApiSuiteRegistrar
         return services;
     }
 
+    /// <summary>
+    /// Adds resend open api suite as scoped.
+    /// </summary>
+    /// <param name="services">The service collection.</param>
+    /// <returns>The result of the operation.</returns>
     public static IServiceCollection AddResendOpenApiSuiteAsScoped(this IServiceCollection services)
     {
         services.AddResendEmailsUtilAsScoped();
