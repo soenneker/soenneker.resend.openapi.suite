@@ -44,7 +44,7 @@
     </ItemGroup>
     
     <ItemGroup>
-      <PackageReference Include="Soenneker.Resend.Emails" Version="4.0.292" />
+      <PackageReference Include="Soenneker.Resend.Emails" Version="4.0.293" />
     </ItemGroup>
 
 </Project>
