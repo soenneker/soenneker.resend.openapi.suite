@@ -4,12 +4,12 @@ using Soenneker.Resend.Emails.Registrars;
 namespace Soenneker.Resend.OpenApi.Suite.Registrars;
 
 /// <summary>
-/// A comprehensive suite of utility libraries for Resend's OpenApi operations
+/// Registers the Resend email operations included in this suite.
 /// </summary>
 public static class ResendOpenApiSuiteRegistrar
 {
     /// <summary>
-    /// Adds resend open api suite as singleton.
+    /// Adds the included Resend email operations as singleton services.
     /// </summary>
     /// <param name="services">The service collection.</param>
     /// <returns>The result of the operation.</returns>
@@ -21,7 +21,7 @@ public static class ResendOpenApiSuiteRegistrar
     }
 
     /// <summary>
-    /// Adds resend open api suite as scoped.
+    /// Adds the included Resend email operations as scoped services.
     /// </summary>
     /// <param name="services">The service collection.</param>
     /// <returns>The result of the operation.</returns>
